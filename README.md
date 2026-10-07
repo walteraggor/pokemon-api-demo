@@ -1,4 +1,4 @@
-# Pokemon API Learning
+# Pokemon API Demo
 
 A first experiment with calling a web API from JavaScript. `fetch-pokemon.js` asks the public [PokéAPI](https://pokeapi.co) for Pikachu and prints a few fields from the JSON reply.
 
@@ -7,8 +7,8 @@ A first experiment with calling a web API from JavaScript. `fetch-pokemon.js` as
 You need Node.js 18 or newer, because the script uses the built-in `fetch`. There are no packages to install.
 
 ```bash
-git clone https://github.com/walteraggor/pokemonapi_learning_apis.git
-cd pokemonapi_learning_apis
+git clone https://github.com/walteraggor/pokemon-api-demo.git
+cd pokemon-api-demo
 node fetch-pokemon.js
 ```
 

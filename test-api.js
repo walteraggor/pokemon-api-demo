@@ -6,7 +6,7 @@ console.log("---Sending Request to the API...---");
 
 fetch(url)
     .then((response) => {
-        // 3. The API sends back a "Response". We turn it into JSON 9readable text).
+        // 3. The API sends back a "Response". We turn it into JSON (readable text).
         return response.json();
     })
     .then((data) => {
